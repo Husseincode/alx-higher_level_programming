@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-string = "abcdefghijklmnopqrstuvwxyz"
-for letter in string:
+for letter in "abcdefghijklmnopqrstuvwxyz":
     print(letter, end="")
