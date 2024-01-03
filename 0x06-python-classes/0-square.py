@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""define a class Square"""
+
+"""Define a class Square."""
+
+
 class Square:
-    "lorem ipsum ditt requirement"
+    """Represent a square."""
     pass
