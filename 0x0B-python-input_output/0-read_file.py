@@ -5,5 +5,4 @@ def read_file(filename=""):
     :param filename: Name of the file to be read.
     """
     with open(filename, encoding="utf-8") as file:
-        for line in file:
-            print(line, end="")
+        print(file.read(), end="")
