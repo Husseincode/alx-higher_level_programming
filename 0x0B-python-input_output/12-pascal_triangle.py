@@ -10,6 +10,13 @@
 
 def pascal_triangle(n):
 
+    """
+    Generate Pascal's triangle of size n.
+
+    :param n: Size of the Pascal's triangle.
+    :return: List of lists representing Pascal's triangle.
+    """
+
     if n <= 0:
         return []
 
