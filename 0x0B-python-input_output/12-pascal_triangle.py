@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-def pascal_triangle(n):
 
-    """
+"""
     Generate Pascal's triangle of size n.
 
     :param n: Size of the Pascal's triangle.
     :return: List of lists representing Pascal's triangle.
-    """
+"""
+
+
+def pascal_triangle(n):
 
     if n <= 0:
         return []
