@@ -19,4 +19,8 @@ class Student:
 
     def to_json(self):
         """Get a dictionary representation of the Student."""
-        return self.
+        return {
+            'first_name': self.first_name,
+            'last_name': self.last_name,
+            'age': self.age
+        }
