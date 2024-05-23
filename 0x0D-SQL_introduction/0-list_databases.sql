@@ -1,2 +1,2 @@
---dt
+-- dt
 SHOW DATABASES;
