@@ -1,1 +1,3 @@
+--dt
 SHOW DATABASES;
+--dt
